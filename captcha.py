@@ -1,25 +1,25 @@
-import random
-a=random.randint(1,11)
-b=random.randint(1,11)
+import random  #import module
+a=random.randint(0,10)
+b=random.randint(0,10)
 
 c=random.choice(["+","-","*"])
 
+print('Solve this captcha')
+
 print(a,c,b,"=")
 
+d=int(input("answer for the above captcha : "))
 
-d=int(input("enter the captcha : "))
-
-
+#perform operations based on operand
 if c=="+":
    e=a+b
 elif c=="-":
     e=a-b
-else:
+elif c=="*":
     e=a*b
 
-print(e)
-
+#verify user's answer and correct answer
 if d == e:
-    print("welcome")
+    print("\n Correct")
 else:
-    print("sorry")
+    print("\n Wrong!")

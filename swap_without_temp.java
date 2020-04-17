@@ -1,7 +1,8 @@
 import java.util.Scanner;
-public class Swap {
-
-	public static void main(String[] args) {
+public class Swap 
+{
+	public static void main(String[] args) 
+	{
 		Scanner s=new Scanner(System.in);
 		int a,b;
 		System.out.println("a:");
@@ -9,6 +10,7 @@ public class Swap {
 		System.out.println("\n");
 		System.out.println("b:");
 		b=s.nextInt();
+
 		a+=b;
 		b=a-b;
 		a-=b;
