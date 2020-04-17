@@ -23,6 +23,7 @@ based on the Maximum unit.Help sanjay and his friend to calculate the amount ?
     
 """
 ###########################################  code  ########################################
+
 unit=int(input())
 if unit<=100:
     amt=0
